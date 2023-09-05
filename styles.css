@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#555;
+}
+
+#container{
+    width: 1325px;
+    height: 495px;
+    border: 1px solid #111;
+    position: relative;
+    margin:10px auto ;
+    border-radius: 10px;
+    background-color: #8B6914;
+}
+
+.card{
+    width: 160px;
+    height: 240px;
+    position: absolute;
+    border-radius: 10px;
+   
+}
+
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.back{
+    background: url("../imgs/verso.jpg");
+    
+}
+
+
